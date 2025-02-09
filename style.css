@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+
+body{
+    background-color: #E6E2D7;
+    font-family: poppins;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: #E6E2D7;
+}
+.navbar-nav a{ 
+    color: #E6E2D7;
+    
+}
+.page1{
+    background-color: #BF6378;
+}
+
+.page2{
+    height: 470px;
+}
+
+.page2 h1{
+    font-family: unbounded;
+    color: #E6E2D7;
+    letter-spacing: 10px;
+    text-shadow: 
+    -2px -2px 0 #BF6378,  
+     2px -2px 0 #BF6378,
+    -2px  2px 0 #BF6378,
+     2px  2px 0 #BF6378;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page3{
+    height: 500px;
+}
+
+.page3 .img{
+    height: 400px;
+    background-color: #B0ADAD;
+}
+
+.page3 h2{
+    font-family: unbounded;
+    color: #E6E2D7;
+    letter-spacing: 10px;
+    text-shadow: 
+    -2px -2px 0 #BF6378,  
+     2px -2px 0 #BF6378,
+    -2px  2px 0 #BF6378,
+     2px  2px 0 #BF6378;
+}
+.page3 p{
+    color: #827E73  ;
+}
+
+.page3 .contact h5{
+    font-family: unbounded;
+    color: #9F314B  ;
+}
+.page3 .contact p{
+    font-weight: 500;
+    color: #827E73  ;
+}
+
+.page3 .contact svg{
+    color: #9F314B  ;
+}
+
+.page4 h1{
+    font-family: unbounded;
+    color: #E6E2D7;
+    letter-spacing: 10px;
+    text-shadow: 
+    -2px -2px 0 #BF6378,  
+     2px -2px 0 #BF6378,
+    -2px  2px 0 #BF6378,
+     2px  2px 0 #BF6378;
+}
+

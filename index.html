@@ -29,8 +29,12 @@
           </nav>
     </div>
 
-    <div class="col-12 page2">
-        <h1 class="">PORTFOLIO</h1>
+    <div class="col-12 page2 pt-5 mt-5">
+      <div class="text-line text-center pt-5 mt-5">
+        <h1 id="text-line1" class="text-line1"></h1>
+        <h1 id="text-line2" class="text-line2"></h1>
+
+      </div>
     </div>
 
     <div class="container page3">
@@ -55,19 +59,24 @@
             </div>
         </div>
     </div>
-<!-- 
-    <div class="container page4">
-        <h1 class="text-center">RESUME </h1>
-        <div class="row">
-            <div class="col-lg-5 col-md-12 col-sm-12 offset-lg-1">
-                <h5>education</h6>
-                <p class=" fst-italic">SMKS HASANAH PEKANBARU <br/> Rekayasa Perangkat Lunak</p>
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-                
-            </div>
-        </div>
-    </div> -->
+
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      // Animasi untuk baris pertama
+      var typed1 = new Typed('#text-line1', {
+        strings: ['MY PORTFOLIO'],
+        typeSpeed: 80,
+        showCursor: false,
+        onComplete: function() {
+          // Setelah baris pertama selesai, jalankan animasi baris kedua
+          var typed2 = new Typed('#text-line2', {
+            strings: ['HI, I AM HANANIAH NURI LATIFAH'],
+            typeSpeed: 80,
+            showCursor: false,
+          });
+        }
+      });
+    </script>
   </body>
 </html>
